@@ -31,7 +31,7 @@ WEB_XML_TEMPLATE=$(cat <<EOF
 EOF
 )
 
-echo -e "${WEB_XML_TEMPLATE}" >> src/main/webapp/web.xml
+echo "${WEB_XML_TEMPLATE}" >> src/main/webapp/web.xml
 
 touch pom.xml
 
@@ -133,4 +133,4 @@ POM_TEMPLATE=$(cat <<EOF
 EOF
 )
 
-echo -e "${POM_TEMPLATE}" >> pom.xml
+echo "${POM_TEMPLATE}" >> pom.xml
