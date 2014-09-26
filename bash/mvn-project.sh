@@ -12,7 +12,8 @@ mkdir -p src/main/java
 mkdir -p src/main/resources
 mkdir -p src/main/webapp/WEB-INF
 mkdir -p src/main/webapp/META-INF
-mkdir -p src/test
+mkdir -p src/test/java
+mkdir -p src/test/resources
 
 touch src/main/webapp/WEB-INF/web.xml
 
